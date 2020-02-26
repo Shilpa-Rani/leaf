@@ -7,6 +7,8 @@ import sys
 import random
 import tensorflow as tf
 
+print(tf.__version__)
+
 import metrics.writer as metrics_writer
 
 from baseline_constants import MAIN_PARAMS, MODEL_PARAMS
